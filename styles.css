@@ -1,0 +1,89 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+@media only screen and (max-width: 1450px) {
+	body {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	body {
+		font-size: 20px;
+	}
+	body {
+		flex-direction: column;
+	}
+	#input-container {
+		display: inline-block;
+		width: 100vw !important;
+		height: min-content !important;
+	}
+
+	#output-container {
+		display: inline-block;
+		height: 100vh;
+		padding: 20px;
+		flex-grow: 1;
+	}
+	.input-name{
+		padding-left: 2px !important;
+	}
+	input{
+		max-width: calc(100vw - 90px);
+	}
+}
+div {
+	box-sizing: border-box;
+}
+#button {
+	margin: 40px;
+}
+
+#input-container {
+	border-right: rgb(0, 59, 117) 4px solid;
+	display: inline-block;
+	width: 584px;
+	width: min-content;
+	background-color: teal;
+	border-left: rgb(0, 59, 117) 4px solid;
+	flex-shrink: 1;
+	height: 100vh;
+}
+
+#output-container {
+	display: inline-block;
+	height: 100vh;
+	padding: 20px;
+	flex-grow: 1;
+}
+.input-name {
+	width: 200px;
+	text-align: left;
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+#output-container div:nth-child(odd) {
+	background-color: lightgray;
+}
+p {
+	display: inline;
+}
+.output-data {
+	background-color: greenyellow;
+}
+input {
+	font-size: 1em;
+	padding: 5px;
+	display: inline-block;
+}
+input[type="submit"] {
+	font-size: 2em;
+}

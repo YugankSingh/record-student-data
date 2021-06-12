@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toggle View</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="input-container">
+        <h1>Add Student Data</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td class="input-name"><label for="roll-no">Roll No.</label></td>
+                    <td><input type="number" name="roll-no" required id="roll-no"></td>
+                </tr>
+                <tr>
+                    <td class="input-name"><label for="name">Name</label></td>
+                    <td><input type="text" name="name" required id="name"></td>
+                </tr>
+                <tr>
+                    <td class="input-name"><label for="marks">Marks</label></td>
+                    <td><input type="number" name="marks" required id="marks"></td>
+                </tr><tr>
+                    <td colspan="2"><input type="submit" id="button" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="output-container"></div>
+    <script
+			  src="https://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			  crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
