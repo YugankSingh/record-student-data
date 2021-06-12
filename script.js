@@ -13,12 +13,12 @@ $("#button").click(() => {
 				" </p> marks</div>"
 		)
 	}
-	var rollNo = $("#roll-no").val("")
-	var name = $("#name").val("")
-	var marks = $("#marks").val("")
-
 	console.log(rollNo, name, marks)
 })
 $("form").on("submit", function (e) {
 	e.preventDefault()
+	var rollNo = $("#roll-no").val("")
+	var name = $("#name").val("")
+	var marks = $("#marks").val("")
+
 })
